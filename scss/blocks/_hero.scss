@@ -1,0 +1,28 @@
+.hero {
+    min-height: 798px;
+    background: url('../img/photos/hero.jpg') no-repeat center / cover;
+
+    @media (min-resolution: 192dpi) {
+        background-image: url('../img/photos/hero@2x.png');
+    }
+
+    &__inner {}
+
+    &__title {}
+
+    &__subtitle {}
+
+    &__location {}
+
+    &__location-icon {}
+
+    &__location-img {}
+
+    &__location-title {}
+
+    &__location-text {}
+
+    &__btn {}
+
+    &__arrow {}
+}
