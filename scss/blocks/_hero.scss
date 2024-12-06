@@ -14,9 +14,15 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 40px;
     }
 
-    &__header {}
+    &__header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
 
     &__title {
         font-family: "Stem", sans-serif;
@@ -37,7 +43,12 @@
         color: rgba(255, 255, 255, 0.8);
     }
 
-    &__body {}
+    &__body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 48px;
+    }
 
     &__location {
         max-width: 383px;
@@ -82,10 +93,24 @@
 
     &__btn {}
 
-    &__arrow {
+    &__footer {
         position: absolute;
         bottom: 16px;
-        left: 50%;
-        transform: translateX(-50%);
+    }
+
+    &__arrow {
+        animation: moveUpDown 1.5s infinite ease-in-out;
+    }
+}
+
+@keyframes moveUpDown {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
     }
 }
