@@ -1,0 +1,37 @@
+.offer {
+    position: relative;
+    height: 798px;
+
+    &__img-box {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+
+    &__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &__container {
+        height: 100%;
+    }
+
+    &__card {
+        position: relative;
+        z-index: 2;
+    }
+
+    &__title {}
+
+    &__text {}
+
+    &__price {}
+
+    &__price-new {}
+
+    &__price-old {}
+}

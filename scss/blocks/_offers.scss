@@ -3,36 +3,5 @@
 
     &__slider {}
 
-    &__slide {
-        position: relative;
-        height: 798px;
-    }
-
-    &__slide-inner {}
-
-    &__img {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        object-fit: cover;
-    }
-
-    &__info {
-        position: relative;
-        z-index: 2;
-    }
-
-    &__info-title {}
-
-    &__info-text {}
-
-    &__info-price {}
-
-    &__info-price-new {}
-
-    &__info-price-old {}
-
     &__thumbs {}
 }
