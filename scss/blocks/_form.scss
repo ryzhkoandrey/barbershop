@@ -8,7 +8,7 @@
     }
 
     &__input {
-        border: 1px solid rgba(0, 0, 0, 0.1);
+        border: 2px solid #fff;
         border-radius: 6px;
         padding: 16px 20px;
         height: 56px;
@@ -22,6 +22,11 @@
         &::placeholder {
             color: rgba(0, 0, 0, 0.2);
         }
+
+        &:focus {
+            border-color: #00d3e2;
+            transition: all .2s;
+        }
     }
 
     &__delivery {
@@ -30,7 +35,7 @@
     }
 
     &__delivery-title {
-        margin-bottom: 8px;
+        margin-bottom: 16px;
         font-family: "Stem", sans-serif;
         font-weight: 500;
         font-size: 18px;
@@ -47,6 +52,16 @@
 
     &__radio {
         cursor: pointer;
+
+        &:hover {
+
+            .form__radio-text {
+
+                &::before {
+                    border-color: #00d3e2;
+                }
+            }
+        }
     }
 
     &__radio-input {
@@ -57,7 +72,10 @@
 
         &:checked + .form__radio-text {
 
-            &::before {}
+            &::before {
+                border-color: #00d3e2;
+                background: #00d3e2;
+            }
 
             &::after {
                 opacity: 1;
@@ -81,8 +99,9 @@
             border-radius: 12px;
             width: 24px;
             height: 24px;
-            background: #00d3e2;
+            background: transparent;
             transition: all .2s;
+            border: 2px solid rgba(255, 255, 255, 0.3);
         }
 
         &::after {
@@ -103,7 +122,22 @@
         margin-bottom: 24px;
     }
 
-    &__agree {}
+    &__agree {
+        margin: 0 auto;
+        max-width: 450px;
+        font-family: "Stem", sans-serif;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 1.38462;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.7);
+    }
 
-    &__agree-link {}
+    &__agree-link {
+        color: #fff;
+
+        &:hover {
+            color: #00d3e2;
+        }
+    }
 }
