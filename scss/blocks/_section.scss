@@ -1,1 +1,37 @@
-.section {}
+.section {
+    padding: 120px 0;
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+    }
+
+    &__header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    &__title {
+        font-family: "Stem", sans-serif;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 1.0625;
+        text-align: center;
+        color: #000;
+    }
+
+    &__text {
+        font-family: "Stem", sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 1.3;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.7);
+    }
+
+    &__body {}
+}

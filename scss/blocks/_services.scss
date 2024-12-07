@@ -1,22 +1,51 @@
 .services {
+    background: #f7f8fa;
 
-    &__inner {}
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 380px;
+        gap: 30px;
+    }
 
-    &__header {}
+    &__item {
+        position: relative;
+    }
 
-    &__title {}
+    &__item-img {
+        border-radius: 16px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 
-    &__text {}
+    &__item-info {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
 
-    &__list {}
+    &__item-title {
+        font-family: "Stem", sans-serif;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 1.3;
+        text-align: center;
+        color: #fff;
+    }
 
-    &__item {}
-
-    &__item-img {}
-
-    &__item-info {}
-
-    &__item-title {}
-
-    &__item-price {}
+    &__item-price {
+        font-family: "Stem", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.33333;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.8);
+    }
 }
