@@ -1,5 +1,12 @@
 .form {
 
+    &__person {
+        margin-bottom: 8px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
     &__input {
         border: 1px solid rgba(0, 0, 0, 0.1);
         border-radius: 6px;
@@ -17,22 +24,86 @@
         }
     }
 
+    &__delivery {
+        margin-bottom: 24px;
+        padding: 16px 0 24px;
+    }
+
+    &__delivery-title {
+        margin-bottom: 8px;
+        font-family: "Stem", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.33333;
+        color: #fff;
+    }
+
+    &__delivery-types {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
     &__radio {
         cursor: pointer;
     }
 
     &__radio-input {
-        // position: absolute;
-        // width: 1px;
-        // height: 1px;
-        // opacity: 0;
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        opacity: 0;
+
+        &:checked + .form__radio-text {
+
+            &::before {}
+
+            &::after {
+                opacity: 1;
+            }
+        }
     }
 
     &__radio-text {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 16px;
         font-family: "Stem", sans-serif;
         font-weight: 700;
         font-size: 18px;
         line-height: 1.33333;
         color: #fff;
+
+        &::before {
+            content: '';
+            border-radius: 12px;
+            width: 24px;
+            height: 24px;
+            background: #00d3e2;
+            transition: all .2s;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 8px;
+            left: 8px;
+            border-radius: 8px;
+            width: 8px;
+            height: 8px;
+            background: #fff;
+            opacity: 0;
+            transition: all .2s;
+        }
     }
+
+    &__btn {
+        margin-bottom: 24px;
+    }
+
+    &__agree {}
+
+    &__agree-link {}
 }

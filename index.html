@@ -341,37 +341,39 @@
                         <p class="order__text">Идейные соображения высшего порядка, а также постоянный количественный рост и сфера нашей активности</p>
                     </div>
 
-                    <form class="order__form form" action="#">
+                    <div class="order__body">
+                        <form class="form" action="#">
 
-                        <div class="order__person">
-                            <input class="form__input" type="text" placeholder="Ваше имя" required>
-                            <input class="form__input" type="tel" placeholder="+7 (000) 000-0000" required>
-                            <input class="form__input" type="email" placeholder="E-mail" required>
-                        </div>
-
-                        <div class="order__delivery">
-                            <p class="order__delivery-title">Выберите способ доставки</p>
-                            <div class="order__delivery-types">
-                                <label class="form__radio">
-                                    <input class="form__radio-input" type="radio" name="delivery" value="До квартиры" checked>
-                                    <span class="form__radio-text">До квартиры</span>
-                                </label>
-                                <label class="form__radio">
-                                    <input class="form__radio-input" type="radio" name="delivery" value="До подъезда">
-                                    <span class="form__radio-text">До подъезда</span>
-                                </label>
-                                <label class="form__radio">
-                                    <input class="form__radio-input" type="radio" name="delivery" value="Самовывоз">
-                                    <span class="form__radio-text">Самовывоз</span>
-                                </label>
+                            <div class="form__person">
+                                <input class="form__input" type="text" placeholder="Ваше имя" required>
+                                <input class="form__input" type="tel" placeholder="+7 (000) 000-0000" required>
+                                <input class="form__input" type="email" placeholder="E-mail" required>
                             </div>
-                        </div>
 
-                        <button class="order__btn btn btn--wide" type="submit">Оставить заявку</button>
+                            <div class="form__delivery">
+                                <p class="form__delivery-title">Выберите способ доставки</p>
+                                <div class="form__delivery-types">
+                                    <label class="form__radio">
+                                        <input class="form__radio-input" type="radio" name="delivery" value="До квартиры" checked>
+                                        <span class="form__radio-text">До квартиры</span>
+                                    </label>
+                                    <label class="form__radio">
+                                        <input class="form__radio-input" type="radio" name="delivery" value="До подъезда">
+                                        <span class="form__radio-text">До подъезда</span>
+                                    </label>
+                                    <label class="form__radio">
+                                        <input class="form__radio-input" type="radio" name="delivery" value="Самовывоз">
+                                        <span class="form__radio-text">Самовывоз</span>
+                                    </label>
+                                </div>
+                            </div>
 
-                        <p class="order__agree">Оставляя заявку, вы соглашаетесь <a class="order__agree-link" href="#">на обработку персональных данных</a> и с <a class="order__agree-link" href="#">условиями бронирования счёта</a></p>
+                            <button class="form__btn btn btn--wide" type="submit">Оставить заявку</button>
 
-                    </form>
+                            <p class="form__agree">Оставляя заявку, вы соглашаетесь <a class="form__agree-link" href="#">на обработку персональных данных</a> и с <a class="form__agree-link" href="#">условиями бронирования счёта</a></p>
+
+                        </form>
+                    </div>
 
                 </div>
             </div>
