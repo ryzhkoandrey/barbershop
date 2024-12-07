@@ -336,17 +336,34 @@
             <div class="container">
                 <div class="order__inner">
 
-                    <h2 class="order__title">Закажи онлайн</h2>
-
-                    <p class="order__text">Идейные соображения высшего порядка, а также постоянный количественный рост и сфера нашей активности</p>
+                    <div class="order__header">
+                        <h2 class="order__title">Закажи онлайн</h2>
+                        <p class="order__text">Идейные соображения высшего порядка, а также постоянный количественный рост и сфера нашей активности</p>
+                    </div>
 
                     <form class="order__form" action="#">
 
-                        <input class="order__input" type="text" placeholder="Ваше имя" required>
-                        <input class="order__input" type="tel" placeholder="+7 (000) 000-0000" required>
-                        <input class="order__input" type="email" placeholder="E-mail" required>
+                        <div class="order__inputs">
+                            <input class="order__input" type="text" placeholder="Ваше имя" required>
+                            <input class="order__input" type="tel" placeholder="+7 (000) 000-0000" required>
+                            <input class="order__input" type="email" placeholder="E-mail" required>
+                        </div>
 
-                        <div class="order__delivery"></div>
+                        <div class="order__delivery">
+                            <p class="order__delivery-title"></p>
+                            <label class="order__label">
+                                <input class="order__radio" type="radio" name="delivery" value="До квартиры" checked>
+                                До квартиры
+                            </label>
+                            <label class="order__label">
+                                <input class="order__radio" type="radio" name="delivery" value="До подъезда">
+                                До подъезда
+                            </label>
+                            <label class="order__label">
+                                <input class="order__radio" type="radio" name="delivery" value="Самовывоз">
+                                Самовывоз
+                            </label>
+                        </div>
 
                         <button class="order__btn btn btn--wide" type="submit">Оставить заявку</button>
 
