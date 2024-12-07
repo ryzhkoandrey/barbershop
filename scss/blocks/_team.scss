@@ -1,0 +1,41 @@
+.team {
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__item-img {
+        border-radius: 50%;
+        margin-bottom: 24px;
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+    }
+
+    &__item-name {
+        margin-bottom: 8px;
+        font-family: "Stem", sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 1.3;
+        text-align: center;
+        color: #000;
+    }
+
+    &__item-desc {
+        font-family: "Stem", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.33333;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.7);
+    }
+}

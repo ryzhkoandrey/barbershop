@@ -2,11 +2,21 @@
     padding: 120px 0;
 
     &__header {
-        margin-bottom: 64px;
+        margin: 0 auto 64px;
+        max-width: 720px;
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 24px;
+    }
+
+    &__subtitle {
+        font-family: "Stem", sans-serif;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 1.3;
+        text-align: center;
+        color: #00d3e2;
     }
 
     &__title {
