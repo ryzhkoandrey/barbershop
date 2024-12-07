@@ -1,0 +1,38 @@
+.form {
+
+    &__input {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 6px;
+        padding: 16px 20px;
+        height: 56px;
+        font-family: "Stem", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.33333;
+        color: #000;
+        background: #fff;
+
+        &::placeholder {
+            color: rgba(0, 0, 0, 0.2);
+        }
+    }
+
+    &__radio {
+        cursor: pointer;
+    }
+
+    &__radio-input {
+        // position: absolute;
+        // width: 1px;
+        // height: 1px;
+        // opacity: 0;
+    }
+
+    &__radio-text {
+        font-family: "Stem", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.33333;
+        color: #fff;
+    }
+}

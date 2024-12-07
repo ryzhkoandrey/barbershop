@@ -203,7 +203,7 @@
                             <div class="offer">
 
                                 <div class="offer__img-box">
-                                    <img class="offer__img" src="img/offers/offers-01.jpg" srcset="img/offers/offers-01.jpg@2x 2x" width="100%" height="100%" loading="lazy" alt="Опасное бритьё + классическая стрижка">
+                                    <img class="offer__img" src="img/offers/offers-01.jpg" srcset="img/offers/offers-01.jpg@2x 2x" loading="lazy" alt="Опасное бритьё + классическая стрижка">
                                 </div>
 
                                 <div class="offer__container container">
@@ -225,7 +225,7 @@
                             <div class="offer">
 
                                 <div class="offer__img-box">
-                                    <img class="offer__img" src="img/offers/offers-02.jpg" srcset="img/offers/offers-02.jpg@2x 2x" width="100%" height="100%" loading="lazy" alt="Опасное бритьё + классическая стрижка">
+                                    <img class="offer__img" src="img/offers/offers-02.jpg" srcset="img/offers/offers-02.jpg@2x 2x" loading="lazy" alt="Опасное бритьё + классическая стрижка">
                                 </div>
 
                                 <div class="offer__container container">
@@ -247,7 +247,7 @@
                             <div class="offer">
 
                                 <div class="offer__img-box">
-                                    <img class="offer__img" src="img/offers/offers-03.jpg" srcset="img/offers/offers-03.jpg@2x 2x" width="100%" height="100%" loading="lazy" alt="Опасное бритьё + классическая стрижка">
+                                    <img class="offer__img" src="img/offers/offers-03.jpg" srcset="img/offers/offers-03.jpg@2x 2x" loading="lazy" alt="Опасное бритьё + классическая стрижка">
                                 </div>
 
                                 <div class="offer__container container">
@@ -341,28 +341,30 @@
                         <p class="order__text">Идейные соображения высшего порядка, а также постоянный количественный рост и сфера нашей активности</p>
                     </div>
 
-                    <form class="order__form" action="#">
+                    <form class="order__form form" action="#">
 
-                        <div class="order__inputs">
-                            <input class="order__input" type="text" placeholder="Ваше имя" required>
-                            <input class="order__input" type="tel" placeholder="+7 (000) 000-0000" required>
-                            <input class="order__input" type="email" placeholder="E-mail" required>
+                        <div class="order__person">
+                            <input class="form__input" type="text" placeholder="Ваше имя" required>
+                            <input class="form__input" type="tel" placeholder="+7 (000) 000-0000" required>
+                            <input class="form__input" type="email" placeholder="E-mail" required>
                         </div>
 
                         <div class="order__delivery">
-                            <p class="order__delivery-title"></p>
-                            <label class="order__label">
-                                <input class="order__radio" type="radio" name="delivery" value="До квартиры" checked>
-                                До квартиры
-                            </label>
-                            <label class="order__label">
-                                <input class="order__radio" type="radio" name="delivery" value="До подъезда">
-                                До подъезда
-                            </label>
-                            <label class="order__label">
-                                <input class="order__radio" type="radio" name="delivery" value="Самовывоз">
-                                Самовывоз
-                            </label>
+                            <p class="order__delivery-title">Выберите способ доставки</p>
+                            <div class="order__delivery-types">
+                                <label class="form__radio">
+                                    <input class="form__radio-input" type="radio" name="delivery" value="До квартиры" checked>
+                                    <span class="form__radio-text">До квартиры</span>
+                                </label>
+                                <label class="form__radio">
+                                    <input class="form__radio-input" type="radio" name="delivery" value="До подъезда">
+                                    <span class="form__radio-text">До подъезда</span>
+                                </label>
+                                <label class="form__radio">
+                                    <input class="form__radio-input" type="radio" name="delivery" value="Самовывоз">
+                                    <span class="form__radio-text">Самовывоз</span>
+                                </label>
+                            </div>
                         </div>
 
                         <button class="order__btn btn btn--wide" type="submit">Оставить заявку</button>

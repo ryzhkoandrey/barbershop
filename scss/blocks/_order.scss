@@ -36,19 +36,36 @@
 
     &__form {}
 
-    &__inputs {}
+    &__person {
+        margin-bottom: 8px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
 
-    &__input {}
+    &__delivery {
+        margin-bottom: 24px;
+        padding: 16px 0 24px;
+    }
 
-    &__delivery {}
+    &__delivery-title {
+        margin-bottom: 8px;
+        font-family: "Stem", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.33333;
+        color: #fff;
+    }
 
-    &__delivery-title {}
+    &__delivery-types {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
-    &__label {}
-
-    &__radio {}
-
-    &__btn {}
+    &__btn {
+        margin-bottom: 24px;
+    }
 
     &__agree {}
 
