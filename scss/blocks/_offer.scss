@@ -18,20 +18,60 @@
 
     &__container {
         height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
     }
 
     &__card {
         position: relative;
         z-index: 2;
+        padding: 32px;
+        max-width: 350px;
+        background: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 16px;
     }
 
-    &__title {}
+    &__title {
+        margin-bottom: 16px;
+        font-family: "Gilroy", sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 1.14286;
+        color: #000;
+    }
 
-    &__text {}
+    &__text {
+        margin-bottom: 24px;
+        font-family: "Gilroy", sans-serif;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 1.23077;
+        color: rgba(0, 0, 0, 0.7);
+    }
 
-    &__price {}
+    &__price {
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
 
-    &__price-new {}
+    &__price-new {
+        font-family: "Gilroy", sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1;
+        color: #00d3e2;
+    }
 
-    &__price-old {}
+    &__price-old {
+        font-family: "Gilroy", sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 1;
+        text-decoration: line-through;
+        color: rgba(0, 0, 0, 0.7);
+    }
 }
