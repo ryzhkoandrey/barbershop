@@ -13,11 +13,17 @@
 
     &__logo {
         margin: 0 auto 0 0;
+        max-width: 150px;
     }
 
     &__logo-img {}
 
-    &__nav {}
+    &__nav {
+
+        @include laptop {
+            display: none;
+        }
+    }
 
     &__nav-list {
         display: flex;
