@@ -49,16 +49,16 @@
     &__icon-img {}
 
     &__count {
-        font-family: "Stem", sans-serif;
+        font-family: var(--font-primary);
         font-weight: 500;
         font-size: 28px;
         line-height: 1.3;
         text-align: center;
-        color: #000;
+        color: var(--color-text-dark-primary);
     }
 
     &__text {
-        font-family: "Stem", sans-serif;
+        font-family: var(--font-primary);
         font-weight: 700;
         font-size: 18px;
         line-height: 1.33333;

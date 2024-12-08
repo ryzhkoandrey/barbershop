@@ -12,11 +12,11 @@
         border-radius: 6px;
         padding: 16px 20px;
         height: 56px;
-        font-family: "Stem", sans-serif;
+        font-family: var(--font-primary);
         font-weight: 700;
         font-size: 18px;
         line-height: 1.33333;
-        color: #000;
+        color: var(--color-text-dark-primary);
         background: #fff;
 
         &::placeholder {
@@ -24,7 +24,7 @@
         }
 
         &:focus {
-            border-color: #00d3e2;
+            border-color: var(--color-primary);
             transition: all .2s;
         }
     }
@@ -36,11 +36,11 @@
 
     &__delivery-title {
         margin-bottom: 16px;
-        font-family: "Stem", sans-serif;
+        font-family: var(--font-primary);
         font-weight: 500;
         font-size: 18px;
         line-height: 1.33333;
-        color: #fff;
+        color: var(--color-text-light-primary);
     }
 
     &__delivery-types {
@@ -58,7 +58,7 @@
             .form__radio-text {
 
                 &::before {
-                    border-color: #00d3e2;
+                    border-color: var(--color-primary);
                 }
             }
         }
@@ -73,8 +73,8 @@
         &:checked + .form__radio-text {
 
             &::before {
-                border-color: #00d3e2;
-                background: #00d3e2;
+                border-color: var(--color-primary);
+                background: var(--color-primary);
             }
 
             &::after {
@@ -88,11 +88,11 @@
         display: flex;
         align-items: center;
         gap: 16px;
-        font-family: "Stem", sans-serif;
+        font-family: var(--font-primary);
         font-weight: 700;
         font-size: 18px;
         line-height: 1.33333;
-        color: #fff;
+        color: var(--color-text-light-primary);
 
         &::before {
             content: '';
@@ -125,7 +125,7 @@
     &__agree {
         margin: 0 auto;
         max-width: 450px;
-        font-family: "Stem", sans-serif;
+        font-family: var(--font-primary);
         font-weight: 700;
         font-size: 13px;
         line-height: 1.38462;
@@ -134,10 +134,10 @@
     }
 
     &__agree-link {
-        color: #fff;
+        color: var(--color-text-light-primary);
 
         &:hover {
-            color: #00d3e2;
+            color: var(--color-primary);
         }
     }
 }

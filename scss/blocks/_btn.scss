@@ -1,21 +1,21 @@
 .btn {
     padding: 16px 32px;
-    font-family: "Stem", sans-serif;
+    font-family: var(--font-primary);
     font-weight: 500;
     font-size: 18px;
     line-height: 1.33333;
     text-align: center;
-    color: #fff;
-    background: #00d3e2;
+    color: var(--color-text-light-primary);
+    background: var(--color-primary);
     border-radius: 6px;
 
     &:hover {
-        background: #00A2E2;
+        background: var(--color-secondary);
     }
 
     &--small {
         padding: 10px 20px;
-        font-family: "Gilroy", sans-serif;
+        font-family: var(--font-secondary);
         font-weight: 700;
         font-size: 15px;
     }

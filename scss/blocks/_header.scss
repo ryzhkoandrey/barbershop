@@ -70,15 +70,15 @@
     &__menu-item {}
 
     &__menu-link {
-        font-family: "Stem", sans-serif;
+        font-family: var(--font-primary);
         font-weight: 500;
         font-size: 18px;
         line-height: 1.33333;
         text-align: right;
-        color: rgba(0, 0, 0, 0.7);
+        color: var(--color-text-dark-secondary);
 
         &:hover {
-            color: #00d3e2;
+            color: var(--color-primary);
         }
     }
 
@@ -95,24 +95,24 @@
     }
 
     &__phone-text {
-        font-family: "Stem", sans-serif;
+        font-family: var(--font-primary);
         font-weight: 700;
         font-size: 13px;
         line-height: 1.38462;
         text-align: right;
-        color: rgba(0, 0, 0, 0.7);
+        color: var(--color-text-dark-secondary);
     }
 
     &__phone-number {
-        font-family: "Stem", sans-serif;
+        font-family: var(--font-primary);
         font-weight: 500;
         font-size: 18px;
         line-height: 1.33333;
         text-align: right;
-        color: #000;
+        color: var(--color-text-dark-primary);
 
         &:hover {
-            color: #00d3e2;
+            color: var(--color-primary);
         }
     }
 }

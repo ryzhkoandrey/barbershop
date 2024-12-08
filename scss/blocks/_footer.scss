@@ -27,7 +27,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background: #00d3e2;
+        background: var(--color-primary);
 
         @include mobile {
             width: 46px;
@@ -35,7 +35,7 @@
         }
 
         &:hover {
-            background: #00A2E2;
+            background: var(--color-secondary);
         }
     }
 
@@ -61,7 +61,7 @@
     &__menu-item {}
 
     &__menu-link {
-        font-family: "Stem", sans-serif;
+        font-family: var(--font-primary);
         font-weight: 700;
         font-size: 18px;
         line-height: 1.33333;
@@ -72,12 +72,12 @@
         }
 
         &:hover {
-            color: #00A2E2;
+            color: var(--color-secondary);
         }
     }
 
     &__copyright {
-        font-family: "Stem", sans-serif;
+        font-family: var(--font-primary);
         font-weight: 700;
         font-size: 15px;
         line-height: 1.33333;

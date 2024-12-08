@@ -2,7 +2,7 @@
     position: relative;
     padding: 120px 0;
     min-height: 400px;
-    background: #00d3e2;
+    background: var(--color-primary);
 
     @include tablet {
         min-height: 600px;
@@ -46,36 +46,36 @@
 
     &__title {
         margin-bottom: 16px;
-        font-family: "Gilroy", sans-serif;
+        font-family: var(--font-secondary);
         font-weight: 700;
         font-size: 28px;
         line-height: 1.1;
-        color: #fff;
+        color: var(--color-text-light-primary);
     }
 
     &__phone {
-        font-family: "Stem", sans-serif;
+        font-family: var(--font-primary);
         font-weight: 500;
         font-size: 18px;
         line-height: 1.33333;
-        color: rgba(255, 255, 255, 0.8);
+        color: var(--color-text-light-secondary);
     }
 
     &__email {
         margin-bottom: 16px;
-        font-family: "Stem", sans-serif;
+        font-family: var(--font-primary);
         font-weight: 500;
         font-size: 18px;
         line-height: 1.33333;
-        color: #fff;
+        color: var(--color-text-light-primary);
     }
 
     &__address {
-        font-family: "Stem", sans-serif;
+        font-family: var(--font-primary);
         font-weight: 500;
         font-size: 18px;
         line-height: 1.33333;
-        color: rgba(255, 255, 255, 0.8);
+        color: var(--color-text-light-secondary);
 
         @include tablet {
             text-align: center;
