@@ -59,6 +59,10 @@
         font-size: 18px;
         line-height: 1.33333;
         color: var(--color-text-light-secondary);
+
+        &:hover {
+            color: var(--color-secondary);
+        }
     }
 
     &__email {
@@ -68,6 +72,10 @@
         font-size: 18px;
         line-height: 1.33333;
         color: var(--color-text-light-primary);
+
+        &:hover {
+            color: var(--color-secondary);
+        }
     }
 
     &__address {

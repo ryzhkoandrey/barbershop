@@ -35,6 +35,8 @@
         height: 80px;
         object-fit: cover;
         transition: all .1s;
+
+
     }
 
     // Swiper thumbs
@@ -43,6 +45,13 @@
 
         .swiper-slide {
             cursor: pointer;
+
+            &:hover {
+
+                .offers__thumbs-img {
+                    border-color: var(--color-primary);
+                }
+            }
         }
 
         .swiper-slide-thumb-active {
