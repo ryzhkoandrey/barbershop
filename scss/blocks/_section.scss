@@ -29,6 +29,10 @@
         line-height: 1.3;
         text-align: center;
         color: #00d3e2;
+
+        @include laptop {
+            font-size: 18px;
+        }
     }
 
     &__title {
