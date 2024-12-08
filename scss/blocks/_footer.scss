@@ -32,17 +32,17 @@
 
     &__socials-img {}
 
-    &__nav {}
+    &__menu {}
 
-    &__nav-list {
+    &__menu-list {
         display: flex;
         align-items: center;
         gap: 40px;
     }
 
-    &__nav-item {}
+    &__menu-item {}
 
-    &__nav-link {
+    &__menu-link {
         font-family: "Stem", sans-serif;
         font-weight: 700;
         font-size: 18px;

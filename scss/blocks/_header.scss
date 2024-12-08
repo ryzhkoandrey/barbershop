@@ -18,22 +18,22 @@
 
     &__logo-img {}
 
-    &__nav {
+    &__menu {
 
         @include laptop {
             display: none;
         }
     }
 
-    &__nav-list {
+    &__menu-list {
         display: flex;
         align-items: center;
         gap: 24px;
     }
 
-    &__nav-item {}
+    &__menu-item {}
 
-    &__nav-link {
+    &__menu-link {
         font-family: "Stem", sans-serif;
         font-weight: 500;
         font-size: 18px;
