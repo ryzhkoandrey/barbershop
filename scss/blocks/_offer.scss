@@ -2,6 +2,14 @@
     position: relative;
     height: 798px;
 
+    @include laptop {
+        height: 700px;
+    }
+
+    @include mobile {
+        height: 600px;
+    }
+
     &__img-box {
         position: absolute;
         top: 0;
@@ -21,6 +29,10 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
+
+        @include laptop {
+            justify-content: center;
+        }
     }
 
     &__card {
@@ -31,6 +43,10 @@
         background: #fff;
         border: 1px solid rgba(0, 0, 0, 0.1);
         border-radius: 16px;
+
+        @include mobile {
+            transform: translateY(-40px);
+        }
     }
 
     &__title {

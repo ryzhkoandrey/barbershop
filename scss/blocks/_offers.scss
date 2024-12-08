@@ -10,10 +10,22 @@
         right: 0;
         left: 0;
         z-index: 2;
+
+        @include laptop {
+            bottom: 40px;
+        }
+
+        @include mobile {
+            bottom: 20px;
+        }
     }
 
     &__thumbs-inner {
         width: 260px;
+
+        @include laptop {
+            margin: 0 auto;
+        }
     }
 
     &__thumbs-img {
