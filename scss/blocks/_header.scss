@@ -38,6 +38,22 @@
 
     &__logo-img {}
 
+    &__burger {
+        display: none;
+
+        @include laptop {
+            margin-right: auto;
+            display: block;
+        }
+
+        @include mobile {
+            margin-right: 0;
+            margin-left: auto;
+        }
+    }
+
+    &__burger-img {}
+
     &__menu {
 
         @include laptop {
@@ -65,22 +81,6 @@
             color: #00d3e2;
         }
     }
-
-    &__menu-open {
-        display: none;
-
-        @include laptop {
-            margin-right: auto;
-            display: block;
-        }
-
-        @include mobile {
-            margin-right: 0;
-            margin-left: auto;
-        }
-    }
-
-    &__menu-open-img {}
 
     &__phone {
         display: flex;
