@@ -1,19 +1,39 @@
 .header {
     padding: 17px 0;
 
+    @include mobile {
+        padding: 12px 0;
+    }
+
     &__inner {
         margin: 0 auto;
         padding: 0 15px;
         max-width: calc(1160px + 30px);
-
         display: flex;
         align-items: center;
         gap: 42px;
+
+        @include laptop {
+            gap: 12px;
+        }
+
+        @include mobile {
+            flex-wrap: wrap;
+            gap: 6px;
+        }
     }
 
     &__logo {
-        margin: 0 auto 0 0;
+        margin-right: auto;
         max-width: 150px;
+
+        @include laptop {
+            margin-right: 0;
+        }
+
+        @include mobile {
+            max-width: 120px;
+        }
     }
 
     &__logo-img {}
@@ -46,11 +66,32 @@
         }
     }
 
+    &__menu-open {
+        display: none;
+
+        @include laptop {
+            margin-right: auto;
+            display: block;
+        }
+
+        @include mobile {
+            margin-right: 0;
+            margin-left: auto;
+        }
+    }
+
+    &__menu-open-img {}
+
     &__phone {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
         gap: 4px;
+
+        @include mobile {
+            width: 100%;
+            align-items: flex-start;
+        }
     }
 
     &__phone-text {
