@@ -1,6 +1,10 @@
 .footer {
     padding: 80px 0;
 
+    @include mobile {
+        padding: 40px;
+    }
+
     &__inner {
         display: flex;
         flex-direction: column;
@@ -25,6 +29,11 @@
         align-items: center;
         background: #00d3e2;
 
+        @include mobile {
+            width: 46px;
+            height: 46px;
+        }
+
         &:hover {
             background: #00A2E2;
         }
@@ -38,6 +47,15 @@
         display: flex;
         align-items: center;
         gap: 40px;
+
+        @include tablet {
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        @include mobile {
+            gap: 12px;
+        }
     }
 
     &__menu-item {}
@@ -48,6 +66,10 @@
         font-size: 18px;
         line-height: 1.33333;
         color: rgba(0, 0, 0, 0.8);
+
+        @include mobile {
+            font-size: 16px;
+        }
 
         &:hover {
             color: #00A2E2;
