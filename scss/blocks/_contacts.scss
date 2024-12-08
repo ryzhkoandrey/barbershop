@@ -16,13 +16,39 @@
         max-width: 271px;
     }
 
-    &__title {}
+    &__title {
+        margin-bottom: 16px;
+        font-family: "Gilroy", sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 1.1;
+        color: #fff;
+    }
 
-    &__phone {}
+    &__phone {
+        font-family: "Stem", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.33333;
+        color: rgba(255, 255, 255, 0.8);
+    }
 
-    &__email {}
+    &__email {
+        margin-bottom: 16px;
+        font-family: "Stem", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.33333;
+        color: #fff;
+    }
 
-    &__address {}
+    &__address {
+        font-family: "Stem", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.33333;
+        color: rgba(255, 255, 255, 0.8);
+    }
 
     &__map {
         position: absolute;

@@ -10,11 +10,12 @@
 
     &__item {
         position: relative;
+        overflow: hidden;
+        border-radius: 16px;
         background: #00D3E2;
     }
 
     &__item-img {
-        border-radius: 16px;
         width: 100%;
         height: 100%;
         object-fit: cover;
