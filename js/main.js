@@ -9,7 +9,7 @@ mobileMenuClose.onclick = toggleMobileMenu;
 
 function toggleMobileMenu() {
     mobileMenu.classList.toggle('mobile-menu--active');
-    document.body.classList.toggle('.no-scroll');
+    document.body.classList.toggle('no-scroll');
 };
 
 // =============== OFFERS ===============
