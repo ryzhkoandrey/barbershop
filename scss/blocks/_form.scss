@@ -20,7 +20,7 @@
         background: #fff;
 
         &::placeholder {
-            color: rgba(0, 0, 0, 0.2);
+            color: var(--color-text-dark-5);
         }
 
         &:focus {
@@ -130,7 +130,7 @@
         font-size: 13px;
         line-height: 1.38462;
         text-align: center;
-        color: rgba(255, 255, 255, 0.7);
+        color: var(--color-text-light-3);
     }
 
     &__agree-link {
