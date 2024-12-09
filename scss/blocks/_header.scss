@@ -75,10 +75,10 @@
         font-size: 18px;
         line-height: 1.33333;
         text-align: right;
-        color: var(--color-text-dark-secondary);
+        color: var(--color-text-dark-2);
 
         &:hover {
-            color: var(--color-primary);
+            color: var(--color-main-1);
         }
     }
 
@@ -100,7 +100,7 @@
         font-size: 13px;
         line-height: 1.38462;
         text-align: right;
-        color: var(--color-text-dark-secondary);
+        color: var(--color-text-dark-2);
     }
 
     &__phone-number {
@@ -109,10 +109,10 @@
         font-size: 18px;
         line-height: 1.33333;
         text-align: right;
-        color: var(--color-text-dark-primary);
+        color: var(--color-text-dark-1);
 
         &:hover {
-            color: var(--color-primary);
+            color: var(--color-main-1);
         }
     }
 }

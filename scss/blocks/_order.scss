@@ -1,6 +1,6 @@
 .order {
     padding: 100px 0;
-    background: var(--color-primary) url('../img/order/order-bg.jpg') no-repeat center / cover;
+    background: var(--color-main-1) url('../img/order/order-bg.jpg') no-repeat center / cover;
 
     @media (min-resolution: 192dpi) {
         background-image: url('../img/order/order-bg@2x.jpg');
@@ -30,7 +30,7 @@
         font-size: 48px;
         line-height: 1.08333;
         text-align: center;
-        color: var(--color-text-light-primary);
+        color: var(--color-text-light-1);
 
         @include tablet {
             font-size: 42px;
@@ -47,7 +47,7 @@
         font-size: 18px;
         line-height: 1.33333;
         text-align: center;
-        color: var(--color-text-light-secondary);
+        color: var(--color-text-light-2);
     }
 
     &__body {}

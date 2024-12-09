@@ -24,7 +24,7 @@
         font-size: 18px;
         line-height: 1.33333;
         text-align: center;
-        color: var(--color-primary);
+        color: var(--color-main-1);
     }
 
     &__title {
@@ -33,7 +33,7 @@
         font-size: 48px;
         line-height: 1.08333;
         text-align: center;
-        color: var(--color-text-dark-primary);
+        color: var(--color-text-dark-1);
 
         @include tablet {
             font-size: 42px;
@@ -50,7 +50,7 @@
         font-size: 18px;
         line-height: 1.33333;
         text-align: center;
-        color: var(--color-text-dark-secondary);
+        color: var(--color-text-dark-2);
     }
 
     &__link {

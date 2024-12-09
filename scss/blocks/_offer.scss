@@ -55,7 +55,7 @@
         font-weight: 700;
         font-size: 28px;
         line-height: 1.14286;
-        color: var(--color-text-dark-primary);
+        color: var(--color-text-dark-1);
     }
 
     &__text {
@@ -64,7 +64,7 @@
         font-weight: 500;
         font-size: 13px;
         line-height: 1.23077;
-        color: var(--color-text-dark-secondary);
+        color: var(--color-text-dark-2);
     }
 
     &__price {
@@ -79,7 +79,7 @@
         font-weight: 700;
         font-size: 24px;
         line-height: 1;
-        color: var(--color-primary);
+        color: var(--color-main-1);
     }
 
     &__price-old {
@@ -88,6 +88,6 @@
         font-size: 24px;
         line-height: 1;
         text-decoration: line-through;
-        color: var(--color-text-dark-secondary);
+        color: var(--color-text-dark-2);
     }
 }

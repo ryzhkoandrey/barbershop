@@ -16,7 +16,7 @@
         font-weight: 700;
         font-size: 18px;
         line-height: 1.33333;
-        color: var(--color-text-dark-primary);
+        color: var(--color-text-dark-1);
         background: #fff;
 
         &::placeholder {
@@ -24,7 +24,7 @@
         }
 
         &:focus {
-            border-color: var(--color-primary);
+            border-color: var(--color-main-1);
             transition: all .2s;
         }
     }
@@ -40,7 +40,7 @@
         font-weight: 500;
         font-size: 18px;
         line-height: 1.33333;
-        color: var(--color-text-light-primary);
+        color: var(--color-text-light-1);
     }
 
     &__delivery-types {
@@ -58,7 +58,7 @@
             .form__radio-text {
 
                 &::before {
-                    border-color: var(--color-primary);
+                    border-color: var(--color-main-1);
                 }
             }
         }
@@ -73,8 +73,8 @@
         &:checked + .form__radio-text {
 
             &::before {
-                border-color: var(--color-primary);
-                background: var(--color-primary);
+                border-color: var(--color-main-1);
+                background: var(--color-main-1);
             }
 
             &::after {
@@ -92,7 +92,7 @@
         font-weight: 700;
         font-size: 18px;
         line-height: 1.33333;
-        color: var(--color-text-light-primary);
+        color: var(--color-text-light-1);
 
         &::before {
             content: '';
@@ -134,10 +134,10 @@
     }
 
     &__agree-link {
-        color: var(--color-text-light-primary);
+        color: var(--color-text-light-1);
 
         &:hover {
-            color: var(--color-primary);
+            color: var(--color-main-1);
         }
     }
 }

@@ -5,12 +5,12 @@
     font-size: 18px;
     line-height: 1.33333;
     text-align: center;
-    color: var(--color-text-light-primary);
-    background: var(--color-primary);
+    color: var(--color-text-light-1);
+    background: var(--color-main-1);
     border-radius: 6px;
 
     &:hover {
-        background: var(--color-secondary);
+        background: var(--color-main-2);
     }
 
     &--small {
