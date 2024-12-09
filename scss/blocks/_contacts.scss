@@ -2,7 +2,7 @@
     position: relative;
     padding: 120px 0;
     min-height: 400px;
-    background: var(--color-main-1);
+    background: var(--color-primary-1);
 
     @include tablet {
         min-height: 600px;
@@ -61,7 +61,7 @@
         color: var(--color-text-light-2);
 
         &:hover {
-            color: var(--color-main-2);
+            color: var(--color-primary-2);
         }
     }
 
@@ -74,7 +74,7 @@
         color: var(--color-text-light-1);
 
         &:hover {
-            color: var(--color-main-2);
+            color: var(--color-primary-2);
         }
     }
 
