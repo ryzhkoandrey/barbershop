@@ -65,9 +65,10 @@
     }
 
     &__radio-input {
+        appearance: none;
         position: absolute;
-        width: 1px;
-        height: 1px;
+        width: 0;
+        height: 0;
         opacity: 0;
 
         &:checked + .form__radio-text {
