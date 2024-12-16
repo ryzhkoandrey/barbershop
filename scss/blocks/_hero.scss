@@ -6,6 +6,14 @@
         background-image: url('../img/hero/hero-bg@2x.jpg');
     }
 
+    @include mobile {
+        background-image: url('../img/hero/hero-bg-mobile.jpg');
+
+        @media (min-resolution: 192dpi) {
+            background-image: url('../img/hero/hero-bg-mobile@2x.jpg');
+        }
+    }
+
     &__inner {
         margin: 0 auto;
         padding: 207px 0;
